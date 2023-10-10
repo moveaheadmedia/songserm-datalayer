@@ -2,9 +2,9 @@
 
 ## 1- View Item
 
-Trigger on This Page View: https://www.songserm.com/booking?from=80d891af-5b84-4a4d-8f62-fe765a69e08e&to=a1338dc4-1872-42a5-beb7-cc017ba4aa73&endDate=2023-10-27&adult=1&child=0&infant=0
-
 To implement the "View Item" data layer code on the specified page, you'll need to insert the following script into the HTML of that page. Make sure to replace the placeholders with actual data:
+
+Trigger on this page view: https://www.songserm.com/booking?from=80d891af-5b84-4a4d-8f62-fe765a69e08e&to=a1338dc4-1872-42a5-beb7-cc017ba4aa73&endDate=2023-10-27&adult=1&child=0&infant=0
 
 ```html
 <script>
@@ -30,9 +30,9 @@ window.dataLayer.push({
 
 ## 2- Add To Cart
 
-Trigger on the click on Choose Ticket on this page: https://www.songserm.com/booking?from=80d891af-5b84-4a4d-8f62-fe765a69e08e&to=a1338dc4-1872-42a5-beb7-cc017ba4aa73&endDate=2023-10-27&adult=1&child=0&infant=0
-
 For the "Add To Cart" event, you can implement it when a user adds an item to their cart. Typically, this involves capturing the product details when the user clicks the "Add to Cart" button. Assuming you have an HTML button with an ID like "add-to-cart-button," you can use JavaScript to capture the product details and push the data to the DataLayer. Here's a simplified example:
+
+Trigger on the click on Choose Ticket on this page: https://www.songserm.com/booking?from=80d891af-5b84-4a4d-8f62-fe765a69e08e&to=a1338dc4-1872-42a5-beb7-cc017ba4aa73&endDate=2023-10-27&adult=1&child=0&infant=0
 
 ```html
 <script>
@@ -59,9 +59,9 @@ document.getElementById("add-to-cart-button").addEventListener("click", function
 
 ## 3- Begin Checkout
 
-Checkout Page View: https://www.songserm.com/booking/checkout
-
 To implement the "Begin Checkout" data layer code on your website, you'll need to insert the following script into the HTML of the relevant page where the checkout process begins. Make sure to replace the placeholders with actual data:
+
+Checkout Page View: https://www.songserm.com/booking/checkout
 
 ```html
 <script>
@@ -87,9 +87,9 @@ window.dataLayer.push({
 
 ## 4- Add Payment Info
 
-Checkout page after adding the contact information https://www.songserm.com/booking/checkout or on this page view: https://songserm.nellika.co/booking/checkout/payment
-
 To implement the "Add Payment Info" data layer code on your website, you'll need to insert the following script into the HTML of the relevant page where users add their payment information during the checkout process. Make sure to replace the placeholders with actual data:
+
+Checkout page after adding the contact information https://www.songserm.com/booking/checkout or on this page view: https://songserm.nellika.co/booking/checkout/payment
 
 ```html
 <script>
@@ -116,9 +116,9 @@ window.dataLayer.push({
 
 ## 5- Purchase Complete
 
-Trigger on the thank you page: https://songserm.nellika.co/process?paidType=STRIPE&status=SUCCESS&reference=PUQV23103101&token=cs_test_a15nM0HuDi1KFrZxPSSaYuTeXRyY2h3NAQkkqvSGpRnRgFYH4uVcbbfzTx
-
 To implement the "Purchase" data layer code on your website, you'll need to insert the following script into the HTML of the page where the purchase is completed. Make sure to replace the placeholders with actual data:
+
+Trigger on the thank you page: https://songserm.nellika.co/process?paidType=STRIPE&status=SUCCESS&reference=PUQV23103101&token=cs_test_a15nM0HuDi1KFrZxPSSaYuTeXRyY2h3NAQkkqvSGpRnRgFYH4uVcbbfzTx
 
 ```html
 <script>
